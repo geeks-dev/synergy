@@ -2,11 +2,11 @@
  * synergy -- mouse and keyboard sharing utility
  * Copyright (C) 2012 Synergy Si Ltd.
  * Copyright (C) 2002 Chris Schoeneman
- * 
+ *
  * This package is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
  * found in the file LICENSE that should have accompanied this file.
- * 
+ *
  * This package is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -116,6 +116,11 @@ static const KeyID		kKeyZenkaku		= 0xEF2A;	/* Zenkaku/Hankaku */
 static const KeyID		kKeyHanjaKanzi	= 0xEF2A;	/* Hanja, Kanzi */
 static const KeyID		kKeyDelete		= 0xEFFF;	/* Delete, rubout */
 
+// for JIS Keyboard
+static const KeyID		kKeyKana		= 0xEF31;
+static const KeyID		kKeyEisu 		= 0xEF34;
+static const KeyID		kKeyBackslash	= 0x005c;
+
 // cursor control
 static const KeyID		kKeyHome		= 0xEF50;
 static const KeyID		kKeyLeft		= 0xEF51;	/* Move left, left arrow */
@@ -168,7 +173,7 @@ static const KeyID		kKeyKP_Separator= 0xEFAC;	/* separator, often comma */
 static const KeyID		kKeyKP_Subtract	= 0xEFAD;
 static const KeyID		kKeyKP_Decimal	= 0xEFAE;
 static const KeyID		kKeyKP_Divide	= 0xEFAF;
-static const KeyID		kKeyKP_0		= 0xEFB0; 
+static const KeyID		kKeyKP_0		= 0xEFB0;
 static const KeyID		kKeyKP_1		= 0xEFB1;
 static const KeyID		kKeyKP_2		= 0xEFB2;
 static const KeyID		kKeyKP_3		= 0xEFB3;
