@@ -117,8 +117,8 @@ static const KeyID		kKeyHanjaKanzi	= 0xEF2A;	/* Hanja, Kanzi */
 static const KeyID		kKeyDelete		= 0xEFFF;	/* Delete, rubout */
 
 // for JIS Keyboard
-static const KeyID		kKeyKana		= 0xEF31;
-static const KeyID		kKeyEisu 		= 0xEF34;
+static const KeyID		kKeyKana		= 0xEF23;
+static const KeyID		kKeyEisu 		= 0xEF22;
 static const KeyID		kKeyBackslash	= 0x005c;
 
 // cursor control
